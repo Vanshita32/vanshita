@@ -1,0 +1,103 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:"Nunito",sans-serif;
+    scroll-behavior:smooth;
+}
+
+:root{
+    --sizebgcolor:#0e1722;
+    --themecolor:#09d6bb;
+    --iconbgcolor:#202647;
+    --textcolor:#ffffff;
+    --bgcolor:#f7f7f7;
+
+}
+header{
+    height: 100vh;
+    width: 300px;
+    padding: 15px 30px;
+    background-color: var(--sizebgcolor);
+    overflow: auto;
+    position:fixed;
+    left:0;
+    top: 0;
+    bottom:0;
+    transition:0.4s
+    z-index: 99;
+    box-shadow:0 0 spx var(--themecolor);
+}
+
+header.profile {
+    text-align:center;
+    margin:30px 0;
+}
+
+header .profile img {
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid var(--iconbgcolor);
+    box-shadow:0 15px 100px 1px  #5e6ad6;
+
+}
+header .profile h1 {
+    color: white;
+    font-weight: 600;
+}
+
+header .profile .social-icons a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+    background-color: var(--iconbgcolor);
+    color: white;
+    font-size: 18px;
+    margin: 1.5px;
+    transition: 0.4s;
+    margin-top: 10px;
+
+}
+ont-size: 15px;
+
+letter-spacing: 0.6px;
+
+header nav ul li a i {}
+margin-right: 10px;
+font-size: 20px;
+transition: 0.45;
+}
+header nav ul 11 a:hover {
+color: var(--themeColor);
+}
+
+header nav ul 11 a:hover{
+transform: translateX(5px);
+}
+
+header nav ul 11 .active 1 {
+color: var-themeColor);
+}
+
+hr{
+border: 1px dotted var(-themeColor);
+border-radius: 50%;
+}
+header .footer{
+    text-align: center;
+    background-color: var(--sidebgcolor);
+    width: 300px;
+    color:lightgrey;
+    font-size: 14px;
+    leeter spacing: 0.6px;
+    padding:15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition:0.4s;
+
+}
+
+    
